@@ -32,20 +32,29 @@
         text-decoration: none;
       }
       /* common css end */
-      #about_right {
+      section {
+        padding: 12%;
+        font-size: 140%;
       }
-      .bg-info {
+      #about_right {
+        padding-right: 6%;
+        padding-left: 7%;
+        padding-bottom: 3%;
+      }
+      #about_left {
+        padding: 3%;
       }
     </style>
   </head>
   <body>
-    <header>COMPANY NAME</header>
+    <header class="pb-5">COMPANY NAME</header>
     <img src="images.jpg" width="100%" />
     <!-- second_half_left-part -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-6">
+        <div class="col-xl-6" id="about_left">
           <h2 style="text-align: center">OUR SERVICE</h2>
+
           <h4>SERVICE NAM</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
@@ -53,6 +62,7 @@
             suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
             autem modi?
           </p>
+          <br />
           <h4>SERVICE NAM</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
@@ -60,6 +70,7 @@
             suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
             autem modi?
           </p>
+          <br />
           <h4>SERVICE NAM</h4>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
@@ -70,7 +81,7 @@
         </div>
         <!-- second_half_left-part -->
         <div class="col-xl-6" id="about_right">
-          <div class="bg-info text-white">
+          <div class="text-white">
             <section style="background-color: rgb(73, 115, 117)">
               <h3>ABOUT US</h3>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
@@ -80,11 +91,8 @@
             </section>
             <section style="background-color: rgb(234, 99, 65)">
               <h3>CONTACT US</h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /><br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              <br />Corrupti ducimus earum necessitatibus rerum cupiditate
-              eligendi perferendis quasi, facilis libero obcaecati rem
-              laboriosam beatae nobis similique magnam id maiores delectus
-              atque.
             </section>
             <section style="background-color: rgb(212, 228, 228)">
               <a href="#">www.example.com</a>
@@ -93,5 +101,6 @@
         </div>
       </div>
     </div>
+    <footer><div class="col p-2 bg-danger"></div></footer>
   </body>
 </html>
