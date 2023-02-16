@@ -26,81 +26,145 @@
       h6,
       p,
       div,
-      section {
+      section,
+      strong,
+      body {
         padding: 0%;
         margin: 0%;
         text-decoration: none;
       }
       /* common css end */
+      #compnay {
+      
+      }
+      strong{
+        font-size: 300%;
+      }
+      #titel {
+        color: white;
+        background-color: rgba(48, 75, 77, 0.558);
+        height: 300px;
+        position: absolute;
+        left: 70%;
+      }
       section {
         padding: 12%;
         font-size: 140%;
       }
       #about_right {
-        padding-right: 6%;
+        padding-right: 7%;
         padding-left: 7%;
         padding-bottom: 3%;
       }
       #about_left {
-        padding: 3%;
+        font-size: 130%;
+        padding-top: 20%;
+        padding-left: 5%;
       }
     </style>
   </head>
   <body>
-    <header class="pb-5">COMPANY NAME</header>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-xl-4">
+            <strong><span><span id="compnay" style="color: rgb(234, 99, 65)">COMPANY</span> NAME</span></strong></div>
+          <div class="col-SM-4" id="titel">WE ARE YOUR CHOICE COMPANY NAME</div>
+          <div class="col-xl-1"></div>
+        </div>
+      </div>
+    </header>
     <img src="images.jpg" width="100%" />
-    <!-- second_half_left-part -->
+    <!-- second_half -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xl-6" id="about_left">
-          <h2 style="text-align: center">OUR SERVICE</h2>
-
-          <h4>SERVICE NAM</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            commodi blanditiis quas sed quasi vel et excepturi est, maxime
-            suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
-            autem modi?
-          </p>
-          <br />
-          <h4>SERVICE NAM</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            commodi blanditiis quas sed quasi vel et excepturi est, maxime
-            suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
-            autem modi?
-          </p>
-          <br />
-          <h4>SERVICE NAM</h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            commodi blanditiis quas sed quasi vel et excepturi est, maxime
-            suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
-            autem modi?
-          </p>
+        <!-- second_half_left-part -->
+        <div class="col-xl-6">
+          <h2 style="text-align: center; color: rgb(73, 115, 117)">
+            OUR SERVICE
+          </h2>
+          <div class="row" id="about_left">
+            <div
+              class="col-sm-2"
+              style="font-size: 500%; color: rgb(234, 99, 65)"
+            >
+              <strong>01</strong>
+            </div>
+            <div class="col-sm-10" style="padding-bottom: 10%">
+              <h4 style="color: rgb(73, 115, 117)">SERVICE NAM</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                commodi blanditiis quas sed quasi vel et excepturi est, maxime
+                suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
+                autem modi?
+              </p>
+            </div>
+            <br />
+            <div
+              class="col-sm-2"
+              style="font-size: 500%; color: rgb(234, 99, 65)"
+            >
+              <strong>02</strong>
+            </div>
+            <div class="col-sm-10" style="padding-bottom: 10%">
+              <h4 style="color: rgb(73, 115, 117)">SERVICE NAM</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                commodi blanditiis quas sed quasi vel et excepturi est, maxime
+                suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
+                autem modi?
+              </p>
+            </div>
+            <br />
+            <div
+              class="col-sm-2"
+              style="font-size: 500%; color: rgb(234, 99, 65)"
+            >
+              <strong>03</strong>
+            </div>
+            <div class="col-sm-10" style="padding-bottom: 0%">
+              <h4 style="color: rgb(73, 115, 117)">SERVICE NAM</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                commodi blanditiis quas sed quasi vel et excepturi est, maxime
+                suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
+                autem modi?
+              </p>
+            </div>
+          </div>
         </div>
+
         <!-- second_half_left-part -->
         <div class="col-xl-6" id="about_right">
           <div class="text-white">
             <section style="background-color: rgb(73, 115, 117)">
-              <h3>ABOUT US</h3>
+              <h3 style="text-align: center; padding-bottom: 5%">
+                <strong>ABOPUT US </strong>
+              </h3>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
               ducimus earum necessitatibus rerum cupiditate eligendi perferendis
               quasi, facilis libero obcaecati rem laboriosam beatae nobis
               similique magnam id maiores delectus atque.
             </section>
             <section style="background-color: rgb(234, 99, 65)">
-              <h3>CONTACT US</h3>
+              <h3 style="text-align: center; padding-bottom: 5%">
+                <strong>CONTAC US </strong>
+              </h3>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /><br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             </section>
-            <section style="background-color: rgb(212, 228, 228)">
+            <section
+              style="background-color: rgb(212, 228, 228); text-align: center"
+            >
               <a href="#">www.example.com</a>
             </section>
           </div>
         </div>
       </div>
     </div>
-    <footer><div class="col p-2 bg-danger"></div></footer>
+    <footer>
+      <div class="col p-2" style="background-color: rgb(234, 99, 65)"></div>
+    </footer>
   </body>
 </html>
