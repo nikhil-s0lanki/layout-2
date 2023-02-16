@@ -53,30 +53,31 @@
         border-radius: 0% 0% 50% 50%;
         font-size: 500%;
         text-align: center;
+        padding-top: 5%;
         /* position: absolute;
         left: 70%; */
-      }
-      .logo{
-      
-        
       }
       #icon{
         background-color:rgb(27,65,82);
         border-radius:1%;
         height: 15%;
-        width: 10%;
-          }
+        width: 35%;
+        margin-left: 30%;
+        margin-top:40%;
+        position: absolute;
+      }
           #icon2{
-        background-color:rgb(238, 50, 50);
+        background-color:rgba(225, 225, 225, 0.282);
         border-radius:1%;
-        background-blend-mode: lighten
-        position:absolute;
-        left: 10%;
-        top: 30%;
-      
-          }
-          #flex{
-            display: flex;
+        height: 15%;
+        width: 35%;
+        margin-top: 45%;
+        margin-left: 35%;
+        position: absolute;
+        
+    
+      }
+        #about_name{
             margin-top: 7%;
           }
       section {
@@ -89,23 +90,26 @@
         padding-bottom: 3%;
       }
       #about_left {
-        font-size: 130%;
+        font-size: 120%;
+        padding-left: 3%;
+      }
+      h2 {
         padding-top: 20%;
-        padding-left: 5%;
+        padding-bottom: 8%;
       }
     </style>
   </head>
-  <body>
+  <body> 
+    <!-- THIS_IS_A_HEADER_PART -->
     <header>
       <div class="container-fluid">
         <div class="row" id="header">
-          <div class="col-xl-1"></div>
-          <div class="col-xl-6" id="flex">
+          <!-- <div class="col-xl-"></div> -->
+          <div class="col-2" style="padding-left: 6%;">
             <div id="icon"></div>
             <div id="icon2"></div>
-              <!-- <div class="logo"></div> -->
-              <!-- <div class="logo"></div> -->
-            
+          </div>
+          <div class="col-xl-5" id="about_name">
             <strong id="compnay" ><span><span style="color: rgb(234, 99, 65)">COMPANY</span> NAME</span></strong>
           </div>
           <div class="col-xl-4" id="titel"><strong>WE ARE<br> YOUR BEST<BR> CHOICE</strong></div>
@@ -113,24 +117,26 @@
         </div>
       </div>
     </header>
+   <!-- THIS_IS _MAIN_IMAGE -->
     <img src="images.jpg" width="100%" />
-    <!-- second_half -->
+    <!-- <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTuoD9LRNET2m6mlm4peeOnpoE7yV-eZwYz7dDQIZzZ7jiheiOq" width="100%"> -->
+    <!--THIS_IS_MAIN_CONTAIN -->
     <div class="container-fluid">
       <div class="row">
-        <!-- second_half_left-part -->
+        <!-- MAIN_CONTAIN_LEFT_PART -->
         <div class="col-xl-6">
-          <h2 style="text-align: center; color: rgb(73, 115, 117)">
-            OUR SERVICE
-          </h2>
+          <h2 style="text-align: center; color: rgb(73, 115, 117);">
+            <strong>OUR SERVICES</strong>          </h2>
           <div class="row" id="about_left">
             <div
               class="col-sm-2"
-              style="font-size: 500%; color: rgb(234, 99, 65)"
+              style="font-size: 500%; color: rgb(234, 99, 65);"
+
             >
               <strong>01</strong>
             </div>
-            <div class="col-sm-10" style="padding-bottom: 10%">
-              <h4 style="color: rgb(73, 115, 117)">SERVICE NAM</h4>
+            <div class="col-sm-10" style="padding-bottom: 10%;padding-left: 4%;">
+              <h4 style="color: rgb(73, 115, 117)">SERVICES NAME</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 commodi blanditiis quas sed quasi vel et excepturi est, maxime
@@ -141,12 +147,12 @@
             <br />
             <div
               class="col-sm-2"
-              style="font-size: 500%; color: rgb(234, 99, 65)"
+              style="font-size: 500%; color: rgb(234, 99, 65);"
             >
               <strong>02</strong>
             </div>
-            <div class="col-sm-10" style="padding-bottom: 10%">
-              <h4 style="color: rgb(73, 115, 117)">SERVICE NAM</h4>
+            <div class="col-sm-10" style="padding-bottom: 10%;padding-left: 4%;">
+              <h4 style="color: rgb(73, 115, 117)">SERVICES NAME</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 commodi blanditiis quas sed quasi vel et excepturi est, maxime
@@ -157,13 +163,15 @@
             <br />
             <div
               class="col-sm-2"
-              style="font-size: 500%; color: rgb(234, 99, 65)"
+              style="font-size: 500%; color: rgb(234, 99, 65);"
+        
             >
               <strong>03</strong>
+              
             </div>
-            <div class="col-sm-10" style="padding-bottom: 0%">
-              <h4 style="color: rgb(73, 115, 117)">SERVICE NAM</h4>
-              <p>
+            <div class="col-sm-10" style="padding-left: 4%;">
+              <h4 style="color: rgb(73, 115, 117)">SERVICES NAME</h4>
+              <p >
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
                 commodi blanditiis quas sed quasi vel et excepturi est, maxime
                 suscipit, dicta placeat voluptas ratione eveniet optio aut fugit
@@ -173,12 +181,12 @@
           </div>
         </div>
 
-        <!-- second_half_left-part -->
+        <!-- MAIN_CONTAIN_RIGHT_PART -->
         <div class="col-xl-6" id="about_right">
           <div class="text-white">
             <section style="background-color: rgb(73, 115, 117)">
               <h3 style="text-align: center; padding-bottom: 5%">
-                <strong>ABOPUT US </strong>
+                <strong>ABOUT US </strong>
               </h3>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
               ducimus earum necessitatibus rerum cupiditate eligendi perferendis
@@ -187,7 +195,7 @@
             </section>
             <section style="background-color: rgb(234, 99, 65)">
               <h3 style="text-align: center; padding-bottom: 5%">
-                <strong>CONTAC US </strong>
+                <strong>CONTACT US </strong>
               </h3>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br /><br />
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -195,12 +203,13 @@
             <section
               style="background-color: rgb(212, 228, 228); text-align: center"
             >
-              <a href="#" style="color: black;">www.example.com</a>
+              <a href="#">www.example.com</a>
             </section>
           </div>
         </div>
       </div>
     </div>
+    <!-- THIS_IS_A_FOOTER -->
     <footer>
       <div class="col p-2" style="background-color: rgb(234, 99, 65)"></div>
     </footer>
